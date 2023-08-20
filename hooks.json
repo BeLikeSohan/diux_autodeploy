@@ -1,7 +1,7 @@
 [
     {
       "id": "diux-autodeploy",
-      "execute-command": "/home/piku/diux_backend/autodeploy/deploy.sh",
-      "command-working-directory": "/home/piku/diux_backend/autodeploy"
+      "execute-command": "/home/piku/diux_autodeploy/deploy.sh",
+      "command-working-directory": "/home/piku/diux_autodeploy"
     }
   ]
