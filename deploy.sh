@@ -13,6 +13,8 @@ cp -r ~/diux_backend /tmp/diux_autodeploy/backup
 cd ~/diux_backend
 
 docker compose down -v
+docker rm $(docker ps -aq --filter  status="exited")
+docker network prune -f
 
 rm -rf *
 
